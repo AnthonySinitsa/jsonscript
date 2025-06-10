@@ -55,6 +55,6 @@ def convert_mapbox_to_feature_collection(input_file, output_file):
 
 # --- Run the conversion ---
 if __name__ == "__main__":
-    input_filename = "spokane-to-seattle-matched3.json"
-    output_filename = "mapbox_snapped_path3.geojson"
+    input_filename = "spokane-to-missoula-matched.json"
+    output_filename = "mapbox_snapped_path_missoula.geojson"
     convert_mapbox_to_feature_collection(input_filename, output_filename)
